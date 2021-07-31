@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d8c72f299ae2f8d42bbe6eaaa3011794
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Devonshire
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f982fa00128129244b8295f662a6351f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
