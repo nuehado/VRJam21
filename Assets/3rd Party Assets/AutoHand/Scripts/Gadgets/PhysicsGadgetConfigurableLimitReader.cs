@@ -38,7 +38,7 @@ namespace Autohand{
 
             if (Mathf.Abs(value) < playRange)
                 value = 0;
-            return Mathf.Clamp(value, -1f, 1f);
+            return Mathf.Clamp(value, -2f, 2f);
         }
     }
 }

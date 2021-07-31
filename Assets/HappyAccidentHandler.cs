@@ -16,17 +16,15 @@ public class HappyAccidentHandler : MonoBehaviour
     private Texture completePaintingTexture;
 
 
-    private void Start()
+    private void Awake()
     {
         paintableTexture = GetComponent<P3dPaintableTexture>();
         changeCounter = GetComponent<P3dChangeCounter>();
         completePaintingTexture = paintableTexture.Texture;
     }
 
-
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("we started painting");
         if (other.tag == "Brush")
         {
             paintableTexture.Clear(completePaintingTexture, Color.white);
@@ -38,8 +36,6 @@ public class HappyAccidentHandler : MonoBehaviour
         if (other.tag == "Brush")
         {
             float mistakePercent = 100f / changeCounter.Total * (changeCounter.Total - changeCounter.Count);
-
-            Debug.Log(mistakePercent);
 
             if (mistakePercent >= mistakePercentToTriggerAction)
             {

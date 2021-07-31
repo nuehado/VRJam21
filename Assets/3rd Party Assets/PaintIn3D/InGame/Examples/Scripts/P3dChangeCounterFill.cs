@@ -12,7 +12,7 @@ namespace PaintIn3D
 	{
 		/// <summary>This allows you to specify the counters that will be used.
 		/// Zero = All active and enabled counters in the scene.</summary>
-		public List<P3dChangeCounter> Counters { get { if (counters == null) counters = new List<P3dChangeCounter>(); return counters; } } [SerializeField] private List<P3dChangeCounter> counters;
+		public List<P3dChangeCounter> Counters { get { if (counters == null) counters = new List<P3dChangeCounter>(); return counters; }} [SerializeField] private List<P3dChangeCounter> counters;
 
 		/// <summary>Inverse the fill?</summary>
 		public bool Inverse { set { inverse = value; } get { return inverse; } } [SerializeField] private bool inverse;
@@ -37,6 +37,12 @@ namespace PaintIn3D
 
 			cachedImage.fillAmount = Mathf.Clamp01(ratio);
 		}
+
+		public void SetCounter(P3dChangeCounter counter)
+        {
+			counters.Clear();
+			counters.Add(counter);
+        }
 	}
 }
 
