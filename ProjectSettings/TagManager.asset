@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Brush
   layers:
   - Default
   - TransparentFX
@@ -31,12 +32,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - HandPlayer
+  - Hand
+  - HandHolding
+  - Grabbable
+  - Grabbing
+  - Releasing
   m_SortingLayers:
   - name: Default
     uniqueID: 0
