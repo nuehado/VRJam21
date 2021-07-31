@@ -629,7 +629,7 @@ Rigidbody:
   m_Drag: 2
   m_AngularDrag: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -929,7 +929,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 745819625}
-  cooldown: -361.21896
+  cooldown: -559.7144
   currentReader:
     requested: 0
     buffer: {fileID: 0}
@@ -2189,7 +2189,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 1812683784}
-  cooldown: -361.21896
+  cooldown: -559.7144
   currentReader:
     requested: 0
     buffer: {fileID: 0}
