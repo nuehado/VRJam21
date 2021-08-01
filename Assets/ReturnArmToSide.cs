@@ -10,25 +10,49 @@ public class ReturnArmToSide : MonoBehaviour
 
 
     private Vector3 targetStartingPos;
+    private Vector3 localStartingPosition;
+    private Quaternion localStartingRotation;
     private Grabbable targetGrabbable;
     bool isReleased = true;
+    [SerializeField] bool useLocal;
     
     // Start is called before the first frame update
     void Awake()
     {
         targetStartingPos = transform.position;
         targetGrabbable = GetComponent<Grabbable>();
+        localStartingPosition = transform.localPosition;
+        localStartingRotation = transform.localRotation;
     }
     private void OnEnable()
     {
-        targetGrabbable.OnReleaseEvent += LerpTowardsStartingPos;
-        targetGrabbable.OnGrabEvent += TurnArmLerpOff;
+        if (useLocal == false)
+        {
+            targetGrabbable.OnReleaseEvent += LerpTowardsStartingPos;
+            targetGrabbable.OnGrabEvent += TurnArmLerpOff;
+        }
+        else
+        {
+            HappyAccidentHandler.BrushLeftCanvas += LerpTowardsLocal;
+
+        }
     }
+
+    private void LerpTowardsLocal()
+    {
+        transform.localPosition = localStartingPosition;
+        transform.localRotation = localStartingRotation;
+    }
+
     private void OnDisable()
     {
-        targetGrabbable.OnReleaseEvent -= LerpTowardsStartingPos;
-        targetGrabbable.OnGrabEvent += TurnArmLerpOff;
+        if (useLocal == false)
+        {
+            targetGrabbable.OnReleaseEvent -= LerpTowardsStartingPos;
+            targetGrabbable.OnGrabEvent += TurnArmLerpOff;
+        }
     }
+
 
 
     private void LerpTowardsStartingPos(Hand hand, Grabbable grabbable)

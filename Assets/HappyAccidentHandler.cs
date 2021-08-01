@@ -7,7 +7,8 @@ using UnityEngine;
 public class HappyAccidentHandler : MonoBehaviour
 {
     public static event Action<float> HappyMistakeTriggered;
-    
+    public static event Action BrushLeftCanvas;
+
     public float mistakePercentToTriggerAction = 1f;
 
     private P3dPaintableTexture paintableTexture;
@@ -34,6 +35,7 @@ public class HappyAccidentHandler : MonoBehaviour
     {
         if (other.tag == "Brush")
         {
+            BrushLeftCanvas?.Invoke();
             float mistakePercent = 100f / changeCounter.Total * (changeCounter.Total - changeCounter.Count);
 
             if (mistakePercent >= mistakePercentToTriggerAction)
