@@ -15,12 +15,12 @@ C:/Unity Projects/VRJam21
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58286
+53608
 Successfully changed project path to: C:/Unity Projects/VRJam21
 C:/Unity Projects/VRJam21
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.07 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.60 ms.
+Refreshing native plugins compatible for Editor in 78.77 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.57 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Unity Projects/VRJam21/Assets
@@ -35,29 +35,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002056 seconds.
+Registered in 0.002477 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.25 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 70.53 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.787 seconds
+- Completed reload, in  1.986 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009023 seconds.
+Registered in 0.009556 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 61.43 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 67.94 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -65,590 +65,19 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.324 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2926 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.3 MB.
-System memory in use after: 128.3 MB.
-
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3407.
-Total: 2.345700 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.072200 ms MarkObjects: 1.922300 ms  DeleteObjects: 0.072600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/HandTesting.unity
-  artifactKey: Guid(a3859315bb910ba4c8a12369b902732d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HandTesting.unity using Guid(a3859315bb910ba4c8a12369b902732d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a679ff2c92758bac312dfe7b564e57e') in 0.016852 seconds 
-  Import took 0.020888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 504.583960 seconds.
-  path: Assets/Scenes/Sandbox 02.unity
-  artifactKey: Guid(0d580dbfaf52bc340abe0db7b893624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox 02.unity using Guid(0d580dbfaf52bc340abe0db7b893624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d291c117c58f0b7513fdf680ce0a49') in 0.006331 seconds 
-  Import took 0.010778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001062 seconds.
-  path: Assets/Scenes/Sandbox 02.unity
-  artifactKey: Guid(0d580dbfaf52bc340abe0db7b893624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox 02.unity using Guid(0d580dbfaf52bc340abe0db7b893624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d291c117c58f0b7513fdf680ce0a49') in 0.002287 seconds 
-  Import took 0.006557 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.061782 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.85 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  9.529 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.9 MB.
-System memory in use after: 135.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3410.
-Total: 2.453100 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.048800 ms  DeleteObjects: 0.053400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 63.077629 seconds.
-  path: Assets/Scenes/Sandbox 03.unity
-  artifactKey: Guid(1e87327bd504ea749b7e298621013290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox 03.unity using Guid(1e87327bd504ea749b7e298621013290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36088182590582bcc62b36f21e0bd113') in 0.022401 seconds 
-  Import took 0.027111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 172.105643 seconds.
-  path: Assets/Scenes/Sandbox 01.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox 01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbef89da1b64f1cb4bab52d673d42464') in 0.606927 seconds 
-  Import took 1.801886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 314.621081 seconds.
-  path: Assets/3d Models/squirrel_body.fbx
-  artifactKey: Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body.fbx using Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5646b55b283960a6331541f7fffef7') in 0.104990 seconds 
-  Import took 0.109957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.635168 seconds.
-  path: Assets/3d Models/squirrel_body.fbx
-  artifactKey: Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body.fbx using Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d3d05142ed42e97847ca5495831f90') in 0.020611 seconds 
-  Import took 0.025117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.419839 seconds.
-  path: Assets/3d Models/squirrel_body.fbx
-  artifactKey: Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body.fbx using Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6862f3ffcaf3a43cc4545b440a15037d') in 0.018680 seconds 
-  Import took 0.023530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.261193 seconds.
-  path: Assets/3d Models/squirrel_body.fbx
-  artifactKey: Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body.fbx using Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccc7276ce9ee3e84ce34f993670fc86') in 0.017675 seconds 
-  Import took 0.021973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.369252 seconds.
-  path: Assets/3d Models/Palette.fbx
-  artifactKey: Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/Palette.fbx using Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634b87fd80aa4158ead0121f697a7761') in 0.021269 seconds 
-  Import took 0.025538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/3d Models/Palette.fbx
-  artifactKey: Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/Palette.fbx using Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634b87fd80aa4158ead0121f697a7761') in 0.014973 seconds 
-  Import took 0.019158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.959054 seconds.
-  path: Assets/3d Models/Palette.fbx
-  artifactKey: Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/Palette.fbx using Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6288c074acae6d7a1f626a39b91697') in 0.019450 seconds 
-  Import took 0.024356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013658 seconds.
-  path: Assets/3d Models/Palette.fbx
-  artifactKey: Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/Palette.fbx using Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6288c074acae6d7a1f626a39b91697') in 0.017609 seconds 
-  Import took 0.021849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.927442 seconds.
-  path: Assets/3d Models/squirrel_body_textured.fbx
-  artifactKey: Guid(bd6f049e65817b340a76bccf691081ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body_textured.fbx using Guid(bd6f049e65817b340a76bccf691081ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b4583f566687649813b67a122f919a') in 0.020114 seconds 
-  Import took 0.024859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.065431 seconds.
-  path: Assets/3d Models/squirrel_body_textured.fbx
-  artifactKey: Guid(bd6f049e65817b340a76bccf691081ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body_textured.fbx using Guid(bd6f049e65817b340a76bccf691081ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4aabe335953e2b910d9f202c28a7d4a') in 0.021073 seconds 
-  Import took 0.025945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.532302 seconds.
-  path: Assets/Materials/Brush L.mat
-  artifactKey: Guid(20d03de6e0c4e004ea772f73cd7dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Brush L.mat using Guid(20d03de6e0c4e004ea772f73cd7dbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32b575742849f83e04e288435130fe5') in 0.011598 seconds 
-  Import took 0.016417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Materials/Brush S.mat
-  artifactKey: Guid(14e6a2ccb3f30c64b8afbb52b81ec628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Brush S.mat using Guid(14e6a2ccb3f30c64b8afbb52b81ec628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810f60bbfd89d92cc38e3efa61e7fa2d') in 0.011137 seconds 
-  Import took 0.015915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Materials/Hair/Hair 1.mat
-  artifactKey: Guid(9bd0aa1db0e528745adff15e7a191e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Hair/Hair 1.mat using Guid(9bd0aa1db0e528745adff15e7a191e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62048abb27f5e5a7b6789d7bedd84c7') in 0.011828 seconds 
-  Import took 0.016053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Materials/Brush M.mat
-  artifactKey: Guid(76ba52a10f6d7e64aaa52281661bd3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Brush M.mat using Guid(76ba52a10f6d7e64aaa52281661bd3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7585aac37020911346acda1e4f0cf136') in 0.009843 seconds 
-  Import took 0.014130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Materials/Hair/HairHighlight.mat
-  artifactKey: Guid(980ad9773a03d3448ac215d524b83425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Hair/HairHighlight.mat using Guid(980ad9773a03d3448ac215d524b83425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6846ba9c8ba666b6d9789ff32faebfd') in 0.010498 seconds 
-  Import took 0.014710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Materials/Hair/Hair 2.mat
-  artifactKey: Guid(16ba19adeae5ba749be59684e83a38fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Hair/Hair 2.mat using Guid(16ba19adeae5ba749be59684e83a38fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4e56642bc99e544b4c97cd78c0382b') in 0.012355 seconds 
-  Import took 0.016764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.436115 seconds.
-  path: Assets/3d Models/squirrel_leftHand.fbx
-  artifactKey: Guid(dd38fdda84dec5e4b80ce2db83bac87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_leftHand.fbx using Guid(dd38fdda84dec5e4b80ce2db83bac87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9156c8427070174f99dc05f521180446') in 0.020569 seconds 
-  Import took 0.025189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Models/squirrel_leftHand.fbx
-  artifactKey: Guid(0333c4ef5079ea14ea45de67281dde96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/squirrel_leftHand.fbx using Guid(0333c4ef5079ea14ea45de67281dde96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91258ec081b9be429fbe460ffa4b96df') in 0.022679 seconds 
-  Import took 0.027118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Models/squirrel_body.fbx
-  artifactKey: Guid(3526f76a7f0bc1d4683d71fe44396b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/squirrel_body.fbx using Guid(3526f76a7f0bc1d4683d71fe44396b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037f7a371e97846f1cb5cc6301e61be1') in 0.018445 seconds 
-  Import took 0.022736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/3d Models/squirrel_leftHand.fbx
-  artifactKey: Guid(dd38fdda84dec5e4b80ce2db83bac87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_leftHand.fbx using Guid(dd38fdda84dec5e4b80ce2db83bac87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9156c8427070174f99dc05f521180446') in 0.022875 seconds 
-  Import took 0.027162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/3d Models/squirrel_rightHand.fbx
-  artifactKey: Guid(071da996cf788f245970f1c0728701bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_rightHand.fbx using Guid(071da996cf788f245970f1c0728701bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b841b2027bcfbe4ec32a06c55d491a9') in 0.020508 seconds 
-  Import took 0.025042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/3d Models/lambert1.mat
-  artifactKey: Guid(8074497e911e4c14e804d1829602866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/lambert1.mat using Guid(8074497e911e4c14e804d1829602866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ffcca792e89daf9598e2b063040e8b') in 0.011535 seconds 
-  Import took 0.015921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Models/squirrel_rightHand.fbx
-  artifactKey: Guid(103aeda81505c0743a49645318b572c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/squirrel_rightHand.fbx using Guid(103aeda81505c0743a49645318b572c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86eae0f879ca0668c2783b08842bafc') in 0.019943 seconds 
-  Import took 0.024499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.282288 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Blue_Dark.mat
-  artifactKey: Guid(b18deac33e80d80468e66acdbab9ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Blue_Dark.mat using Guid(b18deac33e80d80468e66acdbab9ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdd0f9950849e41cb0677ad061dfced') in 0.011138 seconds 
-  Import took 0.015836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001522 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Blue_Dark.mat
-  artifactKey: Guid(b18deac33e80d80468e66acdbab9ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Blue_Dark.mat using Guid(b18deac33e80d80468e66acdbab9ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdd0f9950849e41cb0677ad061dfced') in 0.012406 seconds 
-  Import took 0.016643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting1.mat
-  artifactKey: Guid(008791e1dfa59cf43803084e0be005f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting1.mat using Guid(008791e1dfa59cf43803084e0be005f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5546bef7c3c47dfe74798595f2fe84aa') in 0.014276 seconds 
-  Import took 0.018489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Purple_Light.mat
-  artifactKey: Guid(f4c9387fa4a38cd48a97f5ee24cc6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Purple_Light.mat using Guid(f4c9387fa4a38cd48a97f5ee24cc6630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c854169736235c69b9aae3a4df0620') in 0.010321 seconds 
-  Import took 0.014767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting2.mat
-  artifactKey: Guid(c0131dc54bee044479844ae940061214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting2.mat using Guid(c0131dc54bee044479844ae940061214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33430559a1395a1459eae7d7d5416f10') in 0.012164 seconds 
-  Import took 0.016356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting2_PbN.mat
-  artifactKey: Guid(4dbef3811d882284e8dbe32609e26e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting2_PbN.mat using Guid(4dbef3811d882284e8dbe32609e26e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4025dd71d467c528fde64aa1755d589') in 0.011576 seconds 
-  Import took 0.015564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting1_PbN.mat
-  artifactKey: Guid(5706911f24c0a2848accb09c2f833744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting1_PbN.mat using Guid(5706911f24c0a2848accb09c2f833744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21428b58d6aa5f8fc6bcf5cfa49c1158') in 0.012407 seconds 
-  Import took 0.016324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Purple_Dark.mat
-  artifactKey: Guid(0e3fd7f74be6ad64e95968db341175b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Purple_Dark.mat using Guid(0e3fd7f74be6ad64e95968db341175b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d56febc1ada5a0e16a87199a876a05') in 0.011904 seconds 
-  Import took 0.016207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Blue_Light.mat
-  artifactKey: Guid(61c573b97ce8fe04186651c6232b5192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Blue_Light.mat using Guid(61c573b97ce8fe04186651c6232b5192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19896053f97715025ae188d50dc88d6') in 0.010314 seconds 
-  Import took 0.014320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Green_Dark.mat
-  artifactKey: Guid(3c66950a3c0d0314ba8d682a135e1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Green_Dark.mat using Guid(3c66950a3c0d0314ba8d682a135e1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9037c4727511c3dcf48e3ca112c4f52') in 0.010254 seconds 
-  Import took 0.014262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Painting Art/Paint Color Mats/Paint_Green_Light.mat
-  artifactKey: Guid(0e58e613d4290a6419e962d3492c8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paint Color Mats/Paint_Green_Light.mat using Guid(0e58e613d4290a6419e962d3492c8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855bb7ba19c8ef1805b61788eacbe01b') in 0.012251 seconds 
-  Import took 0.016696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.105974 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting3.mat
-  artifactKey: Guid(994b63460dc284a478f842e1bcf5181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting3.mat using Guid(994b63460dc284a478f842e1bcf5181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e4b14fbd77da964877c9f0651198b4') in 0.011727 seconds 
-  Import took 0.016217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting3_PbN.mat
-  artifactKey: Guid(dd65ad68ee0471f4d8611aa4d5ec1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting3_PbN.mat using Guid(dd65ad68ee0471f4d8611aa4d5ec1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c568475e2646c0669202d93833fa65') in 0.011751 seconds 
-  Import took 0.016753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting3.mat
-  artifactKey: Guid(994b63460dc284a478f842e1bcf5181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting3.mat using Guid(994b63460dc284a478f842e1bcf5181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e4b14fbd77da964877c9f0651198b4') in 0.012266 seconds 
-  Import took 0.016454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012452 seconds.
-  path: Assets/Painting Art/Paintings Mats/Painting3_PbN.mat
-  artifactKey: Guid(dd65ad68ee0471f4d8611aa4d5ec1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Paintings Mats/Painting3_PbN.mat using Guid(dd65ad68ee0471f4d8611aa4d5ec1fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c568475e2646c0669202d93833fa65') in 0.010985 seconds 
-  Import took 0.015195 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009844 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3456.
-Total: 2.313700 ms (FindLiveObjects: 0.285400 ms CreateObjectMapping: 0.071800 ms MarkObjects: 1.895400 ms  DeleteObjects: 0.059800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009172 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Platform modules already initialized, skipping
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3459.
-Total: 2.618100 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.182500 ms MarkObjects: 1.984700 ms  DeleteObjects: 0.060500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009165 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+Unloading 2928 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.0 MB.
+System memory in use after: 129.0 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.1 MB.
-System memory in use after: 149.3 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3462.
-Total: 2.294900 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.880200 ms  DeleteObjects: 0.053900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009114 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.084 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3465.
-Total: 2.297700 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.071900 ms MarkObjects: 1.877900 ms  DeleteObjects: 0.055300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008973 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3468.
-Total: 2.500900 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.079300 ms  DeleteObjects: 0.057200 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 2.646300 ms (FindLiveObjects: 0.368000 ms CreateObjectMapping: 0.189300 ms MarkObjects: 1.997700 ms  DeleteObjects: 0.090200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -662,704 +91,29 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 726.868710 seconds.
-  path: Assets/3d Models/paintbrush_01.fbx
-  artifactKey: Guid(6c6f474f51fdb75498b6288d8bcf2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/paintbrush_01.fbx using Guid(6c6f474f51fdb75498b6288d8bcf2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95fd373ebf9738fe3e14cfcb5a32ea0') in 0.108972 seconds 
-  Import took 0.114672 seconds .
+  path: Assets/Bigscreen
+  artifactKey: Guid(2a26e24e08630104398ec1be98ec74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bigscreen using Guid(2a26e24e08630104398ec1be98ec74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268f9dff896c69f7249f97402be6a18') in 0.010074 seconds 
+  Import took 0.014569 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009013 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3472.
-Total: 2.347800 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.071400 ms MarkObjects: 1.917700 ms  DeleteObjects: 0.057600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 422.638456 seconds.
-  path: Assets/3d Models/paintbrush_01.fbx
-  artifactKey: Guid(6c6f474f51fdb75498b6288d8bcf2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/paintbrush_01.fbx using Guid(6c6f474f51fdb75498b6288d8bcf2266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd39b53ef16dc06c632186831aa0626') in 0.085292 seconds 
-  Import took 0.091677 seconds .
+  Time since last request: 152.735505 seconds.
+  path: Assets/Bigscreen/M_Bigscreen.mat
+  artifactKey: Guid(55cdbded83e4444489ae960e2b0f2dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bigscreen/M_Bigscreen.mat using Guid(55cdbded83e4444489ae960e2b0f2dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2964727136fbe7a2d2c534719d0680a0') in 0.069901 seconds 
+  Import took 0.074378 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009048 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3476.
-Total: 2.392400 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.073800 ms MarkObjects: 1.952200 ms  DeleteObjects: 0.056300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008987 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.075 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3479.
-Total: 2.236500 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.842400 ms  DeleteObjects: 0.055500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009234 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3482.
-Total: 2.305700 ms (FindLiveObjects: 0.266300 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.909400 ms  DeleteObjects: 0.058700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009286 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3485.
-Total: 2.507600 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.073500 ms MarkObjects: 2.087700 ms  DeleteObjects: 0.056900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009352 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3488.
-Total: 2.522100 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.079600 ms  DeleteObjects: 0.062400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009281 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3491.
-Total: 2.461500 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.073800 ms MarkObjects: 1.983400 ms  DeleteObjects: 0.061700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009376 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.2 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3494.
-Total: 2.395500 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.973300 ms  DeleteObjects: 0.057400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3497.
-Total: 2.363300 ms (FindLiveObjects: 0.281100 ms CreateObjectMapping: 0.072700 ms MarkObjects: 1.943700 ms  DeleteObjects: 0.064800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009149 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3500.
-Total: 2.328000 ms (FindLiveObjects: 0.297100 ms CreateObjectMapping: 0.071100 ms MarkObjects: 1.899500 ms  DeleteObjects: 0.059500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009251 seconds.
+Registered in 0.012024 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3503.
-Total: 2.238500 ms (FindLiveObjects: 0.271100 ms CreateObjectMapping: 0.072100 ms MarkObjects: 1.838100 ms  DeleteObjects: 0.056500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008923 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3506.
-Total: 2.451000 ms (FindLiveObjects: 0.326400 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.985900 ms  DeleteObjects: 0.063200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009251 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3509.
-Total: 2.563800 ms (FindLiveObjects: 0.322400 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.101200 ms  DeleteObjects: 0.064700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009165 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3512.
-Total: 2.241100 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.070100 ms MarkObjects: 1.849800 ms  DeleteObjects: 0.056000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009359 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3515.
-Total: 2.302800 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.873700 ms  DeleteObjects: 0.066500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1596.032381 seconds.
-  path: Assets/Prefabs/paintbrushGood.prefab
-  artifactKey: Guid(6fb0c3034b2dc8645827da7ac994ef38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/paintbrushGood.prefab using Guid(6fb0c3034b2dc8645827da7ac994ef38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e7514446190e6bab6e892fcf99fd00') in 0.155090 seconds 
-  Import took 0.161003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 129.979060 seconds.
-  path: Assets/3d Models/paintbrush_02.fbx
-  artifactKey: Guid(3449db61dfe1fe644977139692a251c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/paintbrush_02.fbx using Guid(3449db61dfe1fe644977139692a251c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683a500a26c3946e597a47ba0c311ba1') in 0.041027 seconds 
-  Import took 0.045656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.380870 seconds.
-  path: Assets/Painting Art/Textures/Painting2.jpg
-  artifactKey: Guid(88cb02883b7edfb48b6387c7bb388155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2.jpg using Guid(88cb02883b7edfb48b6387c7bb388155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdfa04dd7a28561f816dd0d56c41d78') in 0.019366 seconds 
-  Import took 0.024150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Painting Art/Textures/Painting3_PbN.png
-  artifactKey: Guid(aa2a0500a39193246add77182e037863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting3_PbN.png using Guid(aa2a0500a39193246add77182e037863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b3b5c369046d2e73326d6eb05d744a') in 0.009230 seconds 
-  Import took 0.013488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Painting Art/Textures/Painting3.png
-  artifactKey: Guid(93ec151aaf7602a4da6783e019a84aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting3.png using Guid(93ec151aaf7602a4da6783e019a84aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f611f8f6abc93d69773a01dc5c986016') in 0.009804 seconds 
-  Import took 0.013794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Painting Art/Textures/Painting2_PbN.png
-  artifactKey: Guid(da4cce49c9c5a41439312c3a80621f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2_PbN.png using Guid(da4cce49c9c5a41439312c3a80621f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4f412f5c78cc2b2920ea198a6119ae') in 0.011720 seconds 
-  Import took 0.016132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/3d Models/Palette_M_palette_AlbedoTransparency.png
-  artifactKey: Guid(c8c2443ea5f76d04c8c99d3b294588f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/Palette_M_palette_AlbedoTransparency.png using Guid(c8c2443ea5f76d04c8c99d3b294588f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c68be0edbe7cecef31e8632b93fa88b') in 0.010430 seconds 
-  Import took 0.014439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Painting Art/Textures/Painting2.jpg
-  artifactKey: Guid(88cb02883b7edfb48b6387c7bb388155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2.jpg using Guid(88cb02883b7edfb48b6387c7bb388155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdfa04dd7a28561f816dd0d56c41d78') in 0.005823 seconds 
-  Import took 0.009667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024729 seconds.
-  path: Assets/Painting Art/Textures/Painting2_PbN.png
-  artifactKey: Guid(da4cce49c9c5a41439312c3a80621f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2_PbN.png using Guid(da4cce49c9c5a41439312c3a80621f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4f412f5c78cc2b2920ea198a6119ae') in 0.010846 seconds 
-  Import took 0.015149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.137017 seconds.
-  path: Assets/3d Models/Palette_M_palette_Normal.png
-  artifactKey: Guid(fd9960aca9efe9a4da467e611d90a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/Palette_M_palette_Normal.png using Guid(fd9960aca9efe9a4da467e611d90a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26405a96abb75936df6bdd1d5b7a9e7') in 0.014064 seconds 
-  Import took 0.018345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.950044 seconds.
-  path: Assets/3d Models/squirrel_body_fur_BaseColor.png
-  artifactKey: Guid(ea8dd095004ce8c4783d5a413650ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body_fur_BaseColor.png using Guid(ea8dd095004ce8c4783d5a413650ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa8a5928202a093e443a35524b832b2') in 0.009882 seconds 
-  Import took 0.014474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/3d Models/squirrel_body_fur_Height.png
-  artifactKey: Guid(3fddb8ab08806f047a83e22a3239b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body_fur_Height.png using Guid(3fddb8ab08806f047a83e22a3239b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85ab7c20c644f6d9da7a6b8bf5b0cdc') in 0.010088 seconds 
-  Import took 0.014111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/3d Models/squirrel_body_fur_BaseColor.png
-  artifactKey: Guid(ea8dd095004ce8c4783d5a413650ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_body_fur_BaseColor.png using Guid(ea8dd095004ce8c4783d5a413650ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa8a5928202a093e443a35524b832b2') in 0.009172 seconds 
-  Import took 0.012856 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009452 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -1369,934 +123,14 @@ NullReferenceException: Object reference not set to an instance of an object
 Mono: successfully reloaded assembly
 - Completed reload, in  1.098 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.5 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3525.
-Total: 2.512100 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.065400 ms  DeleteObjects: 0.060600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009074 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3528.
-Total: 2.321600 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.922900 ms  DeleteObjects: 0.053800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009043 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.075 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3531.
-Total: 2.485600 ms (FindLiveObjects: 0.301600 ms CreateObjectMapping: 0.073900 ms MarkObjects: 2.044300 ms  DeleteObjects: 0.064600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 222.187328 seconds.
-  path: Assets/Prefabs/paintbrushFlat.prefab
-  artifactKey: Guid(aba1908301e04d64db319678174bc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/paintbrushFlat.prefab using Guid(aba1908301e04d64db319678174bc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8803558951da74adff2a6a3650adfc9e') in 0.081203 seconds 
-  Import took 0.087009 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008985 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3535.
-Total: 2.289400 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.884600 ms  DeleteObjects: 0.056500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008929 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3538.
-Total: 2.335100 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.070800 ms MarkObjects: 1.920400 ms  DeleteObjects: 0.058800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009127 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3541.
-Total: 2.954200 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.480100 ms  DeleteObjects: 0.079200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009230 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.6 MB.
-System memory in use after: 149.8 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3544.
-Total: 2.530600 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.042000 ms  DeleteObjects: 0.063300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 568.562054 seconds.
-  path: Assets/Prefabs/paintbrushSmall.prefab
-  artifactKey: Guid(8e9d381d1c948e14792df5cf468dc223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/paintbrushSmall.prefab using Guid(8e9d381d1c948e14792df5cf468dc223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78dc30b830563044c40f1a6b5771a29') in 0.092842 seconds 
-  Import took 0.098760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 860.895322 seconds.
-  path: Assets/3d Models/squirrel_rightHand 1.fbx
-  artifactKey: Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_rightHand 1.fbx using Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b739049d547ea630972b2aca9cab1d') in 0.041885 seconds 
-  Import took 0.046729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.963638 seconds.
-  path: Assets/3d Models/squirrel_rightHand 1.fbx
-  artifactKey: Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_rightHand 1.fbx using Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351282948f62a1d13a2a066397d5b19b') in 0.018503 seconds 
-  Import took 0.023232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.544665 seconds.
-  path: Assets/3d Models/squirrel_rightHand 1.fbx
-  artifactKey: Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/squirrel_rightHand 1.fbx using Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745e959aa9c524ee34c73f2455739080') in 0.018071 seconds 
-  Import took 0.022898 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009684 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3548.
-Total: 2.358500 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.930100 ms  DeleteObjects: 0.062300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009328 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3551.
-Total: 2.383200 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.072600 ms MarkObjects: 1.945200 ms  DeleteObjects: 0.065100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009307 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3554.
-Total: 2.475500 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.042600 ms  DeleteObjects: 0.058000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009505 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3557.
-Total: 2.412200 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.076600 ms MarkObjects: 1.985900 ms  DeleteObjects: 0.077300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.7 MB.
-System memory in use after: 149.9 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3560.
-Total: 2.402400 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.952500 ms  DeleteObjects: 0.057400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3852.342793 seconds.
-  path: Assets/Painting Art/Textures
-  artifactKey: Guid(3a310e707e6254c4a9ce4469f9583087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures using Guid(3a310e707e6254c4a9ce4469f9583087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526846d7ef11e4e4ec453d3a3c6e568a') in 0.009906 seconds 
-  Import took 0.015612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.083107 seconds.
-  path: Assets/Painting Art/Textures/Painting2 1.jpg
-  artifactKey: Guid(4a4619c1e9451f64d8d4d9c04dedfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2 1.jpg using Guid(4a4619c1e9451f64d8d4d9c04dedfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd172c1f15707dbe379d1b0081a0dcd92') in 0.056479 seconds 
-  Import took 0.060667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.459295 seconds.
-  path: Assets/Painting Art/Textures/Painting2_img.jpg
-  artifactKey: Guid(4a4619c1e9451f64d8d4d9c04dedfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2_img.jpg using Guid(4a4619c1e9451f64d8d4d9c04dedfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162aab17dfea05e8ede9214d4d3747e2') in 0.009867 seconds 
-  Import took 0.016442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.521606 seconds.
-  path: Assets/Painting Art/Textures/Painting3_img.png
-  artifactKey: Guid(93ec151aaf7602a4da6783e019a84aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting3_img.png using Guid(93ec151aaf7602a4da6783e019a84aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b825dc54d267b3702fad0c923ae3016a') in 0.010687 seconds 
-  Import took 0.015428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.751255 seconds.
-  path: Assets/Painting Art/Textures/Painting2_img.jpg
-  artifactKey: Guid(4a4619c1e9451f64d8d4d9c04dedfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting2_img.jpg using Guid(4a4619c1e9451f64d8d4d9c04dedfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b65a88a1e82cadcd346fb142813189') in 0.027404 seconds 
-  Import took 0.031815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.684673 seconds.
-  path: Assets/Painting Art/Textures/Painting3_img.png
-  artifactKey: Guid(93ec151aaf7602a4da6783e019a84aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Textures/Painting3_img.png using Guid(93ec151aaf7602a4da6783e019a84aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842472f45d989727fde1b0c62ab915c4') in 0.014067 seconds 
-  Import took 0.019304 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 1.019960 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.228 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.8 MB.
-System memory in use after: 150.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3565.
-Total: 2.353900 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.079300 ms MarkObjects: 1.913600 ms  DeleteObjects: 0.065100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008899 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.8 MB.
-System memory in use after: 150.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3568.
-Total: 2.465600 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.006000 ms  DeleteObjects: 0.071400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009249 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.8 MB.
-System memory in use after: 150.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3571.
-Total: 2.346700 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.071200 ms MarkObjects: 1.917300 ms  DeleteObjects: 0.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009060 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.8 MB.
-System memory in use after: 150.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3574.
-Total: 2.459600 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.014500 ms  DeleteObjects: 0.058500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009229 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.8 MB.
-System memory in use after: 150.0 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3577.
-Total: 2.616100 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.155100 ms  DeleteObjects: 0.075500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 651.248683 seconds.
-  path: Assets/Painting Art/Testing/test image player 1.png
-  artifactKey: Guid(aae23ee3bd5dffb40a42297084e1caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Testing/test image player 1.png using Guid(aae23ee3bd5dffb40a42297084e1caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5978bd086f71a65865d52ff5cb93ff3f') in 0.057673 seconds 
-  Import took 0.063280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.469154 seconds.
-  path: Assets/Painting Art/Testing/test image player 1.png
-  artifactKey: Guid(aae23ee3bd5dffb40a42297084e1caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Painting Art/Testing/test image player 1.png using Guid(aae23ee3bd5dffb40a42297084e1caa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c379128d5d854dac2c1f36dd675f873') in 0.038912 seconds 
-  Import took 0.043418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.598998 seconds.
-  path: Assets/3rd Party Assets/Robot Kyle/Model/Robot Kyle.fbx
-  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc837de4ee5ce9a8682c3a728a88e785') in 0.063539 seconds 
-  Import took 0.068095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.262264 seconds.
-  path: Assets/3d Models/PaintBrushTip_F.mat
-  artifactKey: Guid(4b045aefc45fdc047a058a6dec3b1632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/PaintBrushTip_F.mat using Guid(4b045aefc45fdc047a058a6dec3b1632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b146b7a260f5a96408fc2f50a171d232') in 0.019466 seconds 
-  Import took 0.023673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/3d Models/PaintBrushTip_S.mat
-  artifactKey: Guid(8ed2088beb67dcb45b4ad0a290cd13e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/PaintBrushTip_S.mat using Guid(8ed2088beb67dcb45b4ad0a290cd13e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7daa35077c4b263a77c69c722d281fc') in 0.014671 seconds 
-  Import took 0.019088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/3d Models/PaintBrushTip_M.mat
-  artifactKey: Guid(471db19de59c8464eb8a258b700d2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/PaintBrushTip_M.mat using Guid(471db19de59c8464eb8a258b700d2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993b09e23d93c072916d2cfb5faa882e') in 0.014541 seconds 
-  Import took 0.018413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.758493 seconds.
-  path: Assets/3d Models/paintbrush_03.fbx
-  artifactKey: Guid(d8eb59fc2881eca46a8963866b9cbbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/paintbrush_03.fbx using Guid(d8eb59fc2881eca46a8963866b9cbbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a480dd8f2ae7ba1efeb32d3207858') in 0.026524 seconds 
-  Import took 0.031229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026362 seconds.
-  path: Assets/3d Models/M_hand.mat
-  artifactKey: Guid(20dcd6c1d1923664fa5ce0cc0f8feeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/M_hand.mat using Guid(20dcd6c1d1923664fa5ce0cc0f8feeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55e00a2902dad2ffa6c99b50aa136de') in 0.036991 seconds 
-  Import took 0.041494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.248849 seconds.
-  path: Assets/3d Models/lambert1.mat
-  artifactKey: Guid(8074497e911e4c14e804d1829602866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d Models/lambert1.mat using Guid(8074497e911e4c14e804d1829602866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eba2b1f92e2138fccb57b972dd66ce5') in 0.023607 seconds 
-  Import took 0.028564 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009197 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.07 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.11 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3584.
-Total: 2.404700 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.079200 ms MarkObjects: 1.967500 ms  DeleteObjects: 0.068300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009382 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3587.
-Total: 2.697900 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.209000 ms  DeleteObjects: 0.067900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009398 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Preloading 2 native plugins for Editor in 0.14 ms.
 Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
+System memory in use before: 136.0 MB.
+System memory in use after: 136.2 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3591.
-Total: 2.451200 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.073900 ms MarkObjects: 2.014300 ms  DeleteObjects: 0.062600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008975 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3594.
-Total: 2.359900 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.952100 ms  DeleteObjects: 0.058500 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3454.
+Total: 2.329700 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.083300 ms MarkObjects: 1.880800 ms  DeleteObjects: 0.058300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2309,117 +143,322 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008948 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+Received Import Request.
+  Time since last request: 531.390969 seconds.
+  path: Assets/Prefabs/TV.prefab
+  artifactKey: Guid(6752b3771dcc3cb40865709a213298a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TV.prefab using Guid(6752b3771dcc3cb40865709a213298a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c4ec8b0ac2325fdb708ea03e1f90f8') in 0.063286 seconds 
+  Import took 0.068242 seconds .
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.105 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3597.
-Total: 2.878800 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.471700 ms  DeleteObjects: 0.059900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009283 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+Received Import Request.
+  Time since last request: 5289.508115 seconds.
+  path: Assets/Painting Art/Paintings Mats
+  artifactKey: Guid(e6851d5aebf983f41a9fe9a8a89cd8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Paintings Mats using Guid(e6851d5aebf983f41a9fe9a8a89cd8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e6dd7177899e05886ba81f4845c87c') in 0.006676 seconds 
+  Import took 0.014495 seconds .
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3600.
-Total: 2.491700 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.045100 ms  DeleteObjects: 0.064400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009260 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+Received Import Request.
+  Time since last request: 7.093899 seconds.
+  path: Assets/Painting Art/Final
+  artifactKey: Guid(718ebd36f67f0da4a8c072e64c64eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final using Guid(718ebd36f67f0da4a8c072e64c64eb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4234534e23d614f202e697ab6a184d35') in 0.005684 seconds 
+  Import took 0.009743 seconds .
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+========================================================================
+Received Import Request.
+  Time since last request: 3.410932 seconds.
+  path: Assets/Painting Art/Paint Color Mats
+  artifactKey: Guid(56fb9ea30d0338840a7d72c2c35caa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Paint Color Mats using Guid(56fb9ea30d0338840a7d72c2c35caa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34631a2c719b589668484bc78f67f7e') in 0.005296 seconds 
+  Import took 0.009584 seconds .
 
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.9 MB.
-System memory in use after: 150.1 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 25.077440 seconds.
+  path: Assets/Painting Art/Final/Color Mats
+  artifactKey: Guid(7fe1c06038b040149a0544ee5f4c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Color Mats using Guid(7fe1c06038b040149a0544ee5f4c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bebbfe0d80965e9b3a18aa462525d2') in 0.005802 seconds 
+  Import took 0.009833 seconds .
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3603.
-Total: 2.677000 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.268100 ms  DeleteObjects: 0.057600 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Painting Art/Final/Color Mats
+  artifactKey: Guid(7fe1c06038b040149a0544ee5f4c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Color Mats using Guid(7fe1c06038b040149a0544ee5f4c13f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bebbfe0d80965e9b3a18aa462525d2') in 0.001926 seconds 
+  Import took 0.005628 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 6.518939 seconds.
+  path: Assets/Painting Art/Final/Easle Mats
+  artifactKey: Guid(7487d770324211c4f91b3a08ddc0a244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats using Guid(7487d770324211c4f91b3a08ddc0a244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4592190d9b561cfca79ccf4ddc4af') in 0.005901 seconds 
+  Import took 0.010007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Painting Art/Final/Easle Mats
+  artifactKey: Guid(7487d770324211c4f91b3a08ddc0a244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats using Guid(7487d770324211c4f91b3a08ddc0a244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4592190d9b561cfca79ccf4ddc4af') in 0.001906 seconds 
+  Import took 0.005370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.921311 seconds.
+  path: Assets/Painting Art/Final/Sprites
+  artifactKey: Guid(cd6a70a45e47cde40b65be87ab1e0882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Sprites using Guid(cd6a70a45e47cde40b65be87ab1e0882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e3440e80221b04aaff99e7f1c7963e') in 0.005044 seconds 
+  Import took 0.009241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.448916 seconds.
+  path: Assets/3d Models/squirrel_rightHand_furryHand_BaseColor.png
+  artifactKey: Guid(08548c27ef8fbef4bb8dd49e258af094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand_furryHand_BaseColor.png using Guid(08548c27ef8fbef4bb8dd49e258af094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709b7b917c1e130a7d795c5a97b77850') in 0.025059 seconds 
+  Import took 0.029789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/3d Models/squirrel_rightHand_furryHand_Roughness.png
+  artifactKey: Guid(5921f16cefdba09419ec68d1fae40822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand_furryHand_Roughness.png using Guid(5921f16cefdba09419ec68d1fae40822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3424e36c1f26ded167b5975f15189a26') in 0.010739 seconds 
+  Import took 0.014935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3d Models/squirrel_rightHand_furryHand_Height.png
+  artifactKey: Guid(8fd6eceea6c288a43be328ec454da0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand_furryHand_Height.png using Guid(8fd6eceea6c288a43be328ec454da0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce46805b61e5100058a76884a5c44a8f') in 0.008978 seconds 
+  Import took 0.012997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.045596 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic1_bobpalette-1.png
+  artifactKey: Guid(7874fb5cdad607649b64ff8a65a08cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic1_bobpalette-1.png using Guid(7874fb5cdad607649b64ff8a65a08cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de92683682055c60c483a599c30a419f') in 0.013747 seconds 
+  Import took 0.017896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic1_PbN.png
+  artifactKey: Guid(5fd397c11b23cbf4882cd7cd10d3c13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic1_PbN.png using Guid(5fd397c11b23cbf4882cd7cd10d3c13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5976817acc964c1a9d22ef77927da66') in 0.010103 seconds 
+  Import took 0.014365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.817929 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic2-1.png
+  artifactKey: Guid(164ab0e51a359684ba961c136a6a22d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic2-1.png using Guid(164ab0e51a359684ba961c136a6a22d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3c7534f53f078f1d1c044779f93508') in 0.011549 seconds 
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic2_PbN.png
+  artifactKey: Guid(66ed9c5e8201b2e4aa239f26a783fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic2_PbN.png using Guid(66ed9c5e8201b2e4aa239f26a783fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7d80c2c6c73e420a173fe0500de384') in 0.009906 seconds 
+  Import took 0.013893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic2-1.png
+  artifactKey: Guid(164ab0e51a359684ba961c136a6a22d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic2-1.png using Guid(164ab0e51a359684ba961c136a6a22d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3c7534f53f078f1d1c044779f93508') in 0.011081 seconds 
+  Import took 0.014739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.518445 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic3-1.png
+  artifactKey: Guid(8ab56cc22b611a341b6a3992cb1f70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic3-1.png using Guid(8ab56cc22b611a341b6a3992cb1f70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8888e2e2d70e9184e101663401b0098') in 0.010268 seconds 
+  Import took 0.014672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic3_PbN.png
+  artifactKey: Guid(a36f268c619c32c439a21c65f4769d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic3_PbN.png using Guid(a36f268c619c32c439a21c65f4769d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c757e0e373cf41132603ad1a03308e') in 0.010179 seconds 
+  Import took 0.013910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003665 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic3-1.png
+  artifactKey: Guid(8ab56cc22b611a341b6a3992cb1f70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic3-1.png using Guid(8ab56cc22b611a341b6a3992cb1f70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8888e2e2d70e9184e101663401b0098') in 0.006606 seconds 
+  Import took 0.010334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.264518 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic4-1.png
+  artifactKey: Guid(7607111343d5edb44b84c3247d8d2069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic4-1.png using Guid(7607111343d5edb44b84c3247d8d2069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde4d58b97ed0fd1ab97c881c1917bd') in 0.009744 seconds 
+  Import took 0.014156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic4_PbN.png
+  artifactKey: Guid(9ad8781db1f39534dbdb37e5a89ff57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic4_PbN.png using Guid(9ad8781db1f39534dbdb37e5a89ff57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b74e8bc384ae0b6f6ffa5663207a736') in 0.010614 seconds 
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.930079 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic5_PbN.png
+  artifactKey: Guid(36514e4e7881e5047bae9350211a3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic5_PbN.png using Guid(36514e4e7881e5047bae9350211a3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c66be3a6c7117d1cde9f60282155b5f') in 0.010833 seconds 
+  Import took 0.015305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic5_recolor-1.png
+  artifactKey: Guid(71b56fedd75cfa440a1992d26e728d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic5_recolor-1.png using Guid(71b56fedd75cfa440a1992d26e728d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea994565ae7c3fcad85cef9ffca2928b') in 0.010403 seconds 
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004173 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/pic5_PbN.png
+  artifactKey: Guid(36514e4e7881e5047bae9350211a3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/pic5_PbN.png using Guid(36514e4e7881e5047bae9350211a3cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c66be3a6c7117d1cde9f60282155b5f') in 0.005952 seconds 
+  Import took 0.009921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.194309 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/portrait-1.png
+  artifactKey: Guid(ca2aed359cd295e4ea86667d30432792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/portrait-1.png using Guid(ca2aed359cd295e4ea86667d30432792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4163145768129f13e09b5131f4518d') in 0.010203 seconds 
+  Import took 0.014607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/portrait_PbN.png
+  artifactKey: Guid(936192c250481224e8e7a7234418abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/portrait_PbN.png using Guid(936192c250481224e8e7a7234418abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75cb2900daaa2ed506d3bf0b2d69f87') in 0.010280 seconds 
+  Import took 0.014588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001391 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/portrait-1.png
+  artifactKey: Guid(ca2aed359cd295e4ea86667d30432792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/portrait-1.png using Guid(ca2aed359cd295e4ea86667d30432792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4163145768129f13e09b5131f4518d') in 0.006212 seconds 
+  Import took 0.009968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.223267 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic1.mat
+  artifactKey: Guid(87f4da11ec17fb84cb596a04b23d3f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic1.mat using Guid(87f4da11ec17fb84cb596a04b23d3f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe522b004bd33e4acb2807477596e5') in 0.023313 seconds 
+  Import took 0.028211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/PIc1_PbN.mat
+  artifactKey: Guid(f5e92b8fe44ee7f44a81bb38a71ac9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/PIc1_PbN.mat using Guid(f5e92b8fe44ee7f44a81bb38a71ac9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0399c8525d782f75ec65d057f26e82') in 0.011325 seconds 
+  Import took 0.015213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic2.mat
+  artifactKey: Guid(d645cdbc8f8951241b290bb3a36e8c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic2.mat using Guid(d645cdbc8f8951241b290bb3a36e8c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f697b753cfc39181aa00e8c7c0e807af') in 0.011358 seconds 
+  Import took 0.015463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/PIc5_PbN.mat
+  artifactKey: Guid(809b9dd3436ef3347abf5b826e3199f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/PIc5_PbN.mat using Guid(809b9dd3436ef3347abf5b826e3199f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d0d1c1b6ee2d0d8548968f0b8098e4') in 0.011148 seconds 
+  Import took 0.015561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/PIc2_PbN.mat
+  artifactKey: Guid(37cc67ef802007249afbb6673a64e180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/PIc2_PbN.mat using Guid(37cc67ef802007249afbb6673a64e180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017ebfd6ee8854b4390786541083cf63') in 0.010403 seconds 
+  Import took 0.014564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic1.mat
+  artifactKey: Guid(87f4da11ec17fb84cb596a04b23d3f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic1.mat using Guid(87f4da11ec17fb84cb596a04b23d3f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe522b004bd33e4acb2807477596e5') in 0.011156 seconds 
+  Import took 0.014782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/PIc3_PbN.mat
+  artifactKey: Guid(53e20412ca2ca824abcbe2728c40562a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/PIc3_PbN.mat using Guid(53e20412ca2ca824abcbe2728c40562a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38399ff8935b0978ca83227c2fcb072') in 0.011259 seconds 
+  Import took 0.015511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic4.mat
+  artifactKey: Guid(f0e36201f754d034abac0aaa4bbe235f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic4.mat using Guid(f0e36201f754d034abac0aaa4bbe235f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a57e143d2fbf65066e10a579b6772b3') in 0.012379 seconds 
+  Import took 0.016146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic2.mat
+  artifactKey: Guid(d645cdbc8f8951241b290bb3a36e8c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic2.mat using Guid(d645cdbc8f8951241b290bb3a36e8c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f697b753cfc39181aa00e8c7c0e807af') in 0.010242 seconds 
+  Import took 0.014044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/PIc4_PbN.mat
+  artifactKey: Guid(3a711820283899844978621256cfca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/PIc4_PbN.mat using Guid(3a711820283899844978621256cfca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a12580e7ee8d51dbb2c78b3e71c60ed') in 0.011396 seconds 
+  Import took 0.015594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic3.mat
+  artifactKey: Guid(657d4c68a54ba1244ae31a60829adcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic3.mat using Guid(657d4c68a54ba1244ae31a60829adcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65cbe30745d19338088d4fa2cf862fe') in 0.010483 seconds 
+  Import took 0.014045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Painting Art/Final/Easle Mats/Pic5.mat
+  artifactKey: Guid(38252a4996297284886086d2e2ea25a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Painting Art/Final/Easle Mats/Pic5.mat using Guid(38252a4996297284886086d2e2ea25a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a58c19962fa8ee1b71fef4e99dc1b85') in 0.011768 seconds 
+  Import took 0.015645 seconds .
+

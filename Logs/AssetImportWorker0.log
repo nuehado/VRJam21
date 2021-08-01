@@ -15,12 +15,12 @@ C:/Unity Projects/VRJam21
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53608
+57228
 Successfully changed project path to: C:/Unity Projects/VRJam21
 C:/Unity Projects/VRJam21
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.77 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.57 ms.
+Refreshing native plugins compatible for Editor in 76.54 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.66 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Unity Projects/VRJam21/Assets
@@ -35,29 +35,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002477 seconds.
+Registered in 0.002297 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 70.53 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 62.67 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.986 seconds
+- Completed reload, in  1.861 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009556 seconds.
+Registered in 0.008728 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.94 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 62.28 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -65,19 +65,19 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.324 seconds
+- Completed reload, in  1.232 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 2928 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 129.0 MB.
+System memory in use before: 129.1 MB.
+System memory in use after: 129.1 MB.
 
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3411.
-Total: 2.646300 ms (FindLiveObjects: 0.368000 ms CreateObjectMapping: 0.189300 ms MarkObjects: 1.997700 ms  DeleteObjects: 0.090200 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3412.
+Total: 2.575900 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.075100 ms MarkObjects: 2.098800 ms  DeleteObjects: 0.085800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -91,29 +91,125 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Bigscreen
-  artifactKey: Guid(2a26e24e08630104398ec1be98ec74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bigscreen using Guid(2a26e24e08630104398ec1be98ec74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268f9dff896c69f7249f97402be6a18') in 0.010074 seconds 
-  Import took 0.014569 seconds .
+  path: Assets/Prefabs/Painter Station.prefab
+  artifactKey: Guid(aed01cb09d024b54198bab2f067d9b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Painter Station.prefab using Guid(aed01cb09d024b54198bab2f067d9b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df03f87beaba0686c8ffde9bb06ad7b0') in 0.190862 seconds 
+  Import took 0.196489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 152.735505 seconds.
-  path: Assets/Bigscreen/M_Bigscreen.mat
-  artifactKey: Guid(55cdbded83e4444489ae960e2b0f2dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bigscreen/M_Bigscreen.mat using Guid(55cdbded83e4444489ae960e2b0f2dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2964727136fbe7a2d2c534719d0680a0') in 0.069901 seconds 
-  Import took 0.074378 seconds .
+  Time since last request: 4.160238 seconds.
+  path: Assets/Prefabs/Final Easles
+  artifactKey: Guid(fc54dd0a147093b4388bd3f952e0afa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles using Guid(fc54dd0a147093b4388bd3f952e0afa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f839c1fcc19db4bab90fedd441bbd9a') in 0.005227 seconds 
+  Import took 0.009483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.260153 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 1.prefab
+  artifactKey: Guid(3df6198eabd5fb94381af0137b58a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 1.prefab using Guid(3df6198eabd5fb94381af0137b58a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0fa644beb1711135d6b5ea416a70d4') in 0.014457 seconds 
+  Import took 0.018918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015705 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 1.prefab
+  artifactKey: Guid(3df6198eabd5fb94381af0137b58a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 1.prefab using Guid(3df6198eabd5fb94381af0137b58a75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0fa644beb1711135d6b5ea416a70d4') in 0.009962 seconds 
+  Import took 0.014283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.651192 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 2.prefab
+  artifactKey: Guid(ad3159ee5512bb64c84a924b41822c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 2.prefab using Guid(ad3159ee5512bb64c84a924b41822c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d581a306cfff87a6a0a436b6b04ffa2') in 0.012490 seconds 
+  Import took 0.016788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016552 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 2.prefab
+  artifactKey: Guid(ad3159ee5512bb64c84a924b41822c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 2.prefab using Guid(ad3159ee5512bb64c84a924b41822c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d581a306cfff87a6a0a436b6b04ffa2') in 0.009416 seconds 
+  Import took 0.013598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.513691 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 3.prefab
+  artifactKey: Guid(df7ed8299bd7c6d46a0d47c06495525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 3.prefab using Guid(df7ed8299bd7c6d46a0d47c06495525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6791b86edbff127b350da956339975') in 0.012917 seconds 
+  Import took 0.017203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003202 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 3.prefab
+  artifactKey: Guid(df7ed8299bd7c6d46a0d47c06495525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 3.prefab using Guid(df7ed8299bd7c6d46a0d47c06495525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6791b86edbff127b350da956339975') in 0.009696 seconds 
+  Import took 0.013620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.434194 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 4.prefab
+  artifactKey: Guid(b7bdde03be0b12145a5ceaa947949a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 4.prefab using Guid(b7bdde03be0b12145a5ceaa947949a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6950d4f93a4d7b211bc7847da034c9') in 0.012591 seconds 
+  Import took 0.016873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003774 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 4.prefab
+  artifactKey: Guid(b7bdde03be0b12145a5ceaa947949a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 4.prefab using Guid(b7bdde03be0b12145a5ceaa947949a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6950d4f93a4d7b211bc7847da034c9') in 0.009545 seconds 
+  Import took 0.013762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.306008 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 5.prefab
+  artifactKey: Guid(12c4f162509a9a94ca3535102d2b2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 5.prefab using Guid(12c4f162509a9a94ca3535102d2b2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28fce9e10942ccb6bd33b4e83aa675e') in 0.013458 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002437 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 5.prefab
+  artifactKey: Guid(12c4f162509a9a94ca3535102d2b2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 5.prefab using Guid(12c4f162509a9a94ca3535102d2b2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28fce9e10942ccb6bd33b4e83aa675e') in 0.009232 seconds 
+  Import took 0.013479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.471676 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 6.prefab
+  artifactKey: Guid(a52e093e1492216458266f923baadaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 6.prefab using Guid(a52e093e1492216458266f923baadaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62976e19d630b895d1cbe9d1cfe13c77') in 0.012923 seconds 
+  Import took 0.017328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002821 seconds.
+  path: Assets/Prefabs/Final Easles/Easle 6.prefab
+  artifactKey: Guid(a52e093e1492216458266f923baadaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles/Easle 6.prefab using Guid(a52e093e1492216458266f923baadaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62976e19d630b895d1cbe9d1cfe13c77') in 0.009321 seconds 
+  Import took 0.012963 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012024 seconds.
+Registered in 0.009004 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -121,16 +217,16 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  1.099 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.0 MB.
-System memory in use after: 136.2 MB.
+System memory in use before: 149.7 MB.
+System memory in use after: 149.9 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3454.
-Total: 2.329700 ms (FindLiveObjects: 0.306300 ms CreateObjectMapping: 0.083300 ms MarkObjects: 1.880800 ms  DeleteObjects: 0.058300 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3426.
+Total: 2.247200 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.072000 ms MarkObjects: 1.836300 ms  DeleteObjects: 0.056400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -143,10 +239,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 531.390969 seconds.
-  path: Assets/Prefabs/TV.prefab
-  artifactKey: Guid(6752b3771dcc3cb40865709a213298a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TV.prefab using Guid(6752b3771dcc3cb40865709a213298a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c4ec8b0ac2325fdb708ea03e1f90f8') in 0.063286 seconds 
-  Import took 0.068242 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
 
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 150.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 2.428700 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.008800 ms  DeleteObjects: 0.062500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Unity Projects\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.8 MB.
+System memory in use after: 150.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 2.259600 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.852600 ms  DeleteObjects: 0.062700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
