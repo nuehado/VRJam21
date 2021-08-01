@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HandTesting.unity
-    guid: a3859315bb910ba4c8a12369b902732d
+    path: Assets/Scenes/sandbox 05.unity
+    guid: d2405d3e0d5fa4440a9b84dd9e6c4dfb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
