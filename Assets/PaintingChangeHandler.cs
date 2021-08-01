@@ -39,19 +39,39 @@ public class PaintingChangeHandler : MonoBehaviour
         
         currentPainting.gameObject.SetActive(false);
 
-        for (int i = 0; i < easles.Count; i++)
+        if (next)
         {
-            if (i == easles.Count - 1)
+            for (int i = 0; i < easles.Count; i++)
             {
-                currentPainting = easles[0];
-                break;
-            }
-            else if (easles[i] == currentPainting)
-            {
-                currentPainting = easles[i + 1];
-                break;                
+                if (i == easles.Count - 1)
+                {
+                    currentPainting = easles[0];
+                    break;
+                }
+                else if (easles[i] == currentPainting)
+                {
+                    currentPainting = easles[i + 1];
+                    break;
+                }
             }
         }
+        else
+        {
+            for (int i = easles.Count -1; i >= 0 ; i--)
+            {
+                if (i == 0)
+                {
+                    currentPainting = easles[easles.Count - 1];
+                    break;
+                }
+                else if (easles[i] == currentPainting)
+                {
+                    currentPainting = easles[i - 1];
+                    break;
+                }
+            }
+        }
+        
 
         percentCorrentUI.GetComponentInChildren<P3dChangeCounterFill>().Counters.Add(currentPainting.GetComponent<P3dChangeCounter>());
         percentCorrentUI.GetComponentInChildren<P3dChangeCounterText>().Counters.Add(currentPainting.GetComponent<P3dChangeCounter>());

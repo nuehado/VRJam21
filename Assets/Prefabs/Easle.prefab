@@ -65,8 +65,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: acc0cbe16d8918d4da6b770b9be7ac01, type: 2}
-  - {fileID: 2100000, guid: 6b713f1918e29fd46a545eb6701d780b, type: 2}
+  - {fileID: 2100000, guid: 5706911f24c0a2848accb09c2f833744, type: 2}
+  - {fileID: 2100000, guid: 008791e1dfa59cf43803084e0be005f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 8244488107589453163}
-  cooldown: -561.1174
+  cooldown: -571.16113
   currentReader:
     requested: 0
     buffer: {fileID: 0}
@@ -317,8 +317,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: acc0cbe16d8918d4da6b770b9be7ac01, type: 2}
-  - {fileID: 2100000, guid: 6b713f1918e29fd46a545eb6701d780b, type: 2}
+  - {fileID: 2100000, guid: 5706911f24c0a2848accb09c2f833744, type: 2}
+  - {fileID: 2100000, guid: 008791e1dfa59cf43803084e0be005f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 8244488108661429386}
-  cooldown: -561.1174
+  cooldown: -571.16113
   currentReader:
     requested: 0
     buffer: {fileID: 0}

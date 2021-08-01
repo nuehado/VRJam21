@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class HappyAccidentHandler : MonoBehaviour
 {
-
     public static event Action<float> HappyMistakeTriggered;
     
     public float mistakePercentToTriggerAction = 1f;

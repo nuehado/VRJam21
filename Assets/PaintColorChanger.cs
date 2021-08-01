@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using PaintIn3D;
+using System.Linq;
 
 public class PaintColorChanger : MonoBehaviour
 {
@@ -11,7 +12,15 @@ public class PaintColorChanger : MonoBehaviour
     {
         if (other.tag == "Brush")
         {
-            other.GetComponent<P3dPaintDecal>().Color = paintcolor;
+            other.GetComponentInChildren<MeshRenderer>().material.color = paintcolor;
+
+
+            List<P3dPaintDecal> brushDecals = other.GetComponents<P3dPaintDecal>().ToList();
+
+            foreach (var decal in brushDecals)
+            {
+                decal.Color = paintcolor;
+            }            
         }
     }
 }
