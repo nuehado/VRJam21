@@ -32,18 +32,22 @@ public class AccidentCounter : MonoBehaviour
 
         if (accidentCount == accidentThreshold1)
         {
+            Debug.Log(accidentThreshold1 + " accidents");
             AccidentThreshold1Reached?.Invoke();
         }
         else if (accidentCount == accidentThreshold2)
         {
+            Debug.Log(accidentThreshold2 + " accidents");
             AccidentThreshold2Reached?.Invoke();
         }
         else if (accidentCount == accidentThreshold3)
         {
+            Debug.Log(accidentThreshold3 + " accidents");
             AccidentThreshold3Reached?.Invoke();
         }
         else if (accidentCount == accidentThreshold4)
         {
+            Debug.Log(accidentThreshold4 + " accidents");
             AccidentThreshold4Reached?.Invoke();
         }
     }

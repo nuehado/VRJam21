@@ -1,14 +1,19 @@
 fileFormatVersion: 2
-guid: 071da996cf788f245970f1c0728701bf
+guid: 87ca3c30092b6b94bb7fb2db927af661
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 8074497e911e4c14e804d1829602866a, type: 2}
+      name: Palette_M_palette_AlbedoTransparency
+    second: {fileID: 2800000, guid: c8c2443ea5f76d04c8c99d3b294588f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Palette_M_palette_Normal
+    second: {fileID: 2800000, guid: fd9960aca9efe9a4da467e611d90a027, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

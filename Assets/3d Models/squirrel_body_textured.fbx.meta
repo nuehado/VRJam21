@@ -1,14 +1,19 @@
 fileFormatVersion: 2
-guid: 071da996cf788f245970f1c0728701bf
+guid: bd6f049e65817b340a76bccf691081ce
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 8074497e911e4c14e804d1829602866a, type: 2}
+      name: squirrel_body_fur_BaseColor
+    second: {fileID: 2800000, guid: ea8dd095004ce8c4783d5a413650ca15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: squirrel_body_fur_Height
+    second: {fileID: 2800000, guid: 3fddb8ab08806f047a83e22a3239b9cf, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

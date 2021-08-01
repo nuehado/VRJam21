@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 071da996cf788f245970f1c0728701bf
+guid: 624487e8130eb5b408a56f4e20543dce
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,8 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 8074497e911e4c14e804d1829602866a, type: 2}
+      name: M_hand
+    second: {fileID: 2100000, guid: 20dcd6c1d1923664fa5ce0cc0f8feeff, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: squirrel_rightHand_furryHand_BaseColor
+    second: {fileID: 2800000, guid: 08548c27ef8fbef4bb8dd49e258af094, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: squirrel_rightHand_furryHand_Height
+    second: {fileID: 2800000, guid: 8fd6eceea6c288a43be328ec454da0ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: squirrel_rightHand_furryHand_Roughness
+    second: {fileID: 2800000, guid: 5921f16cefdba09419ec68d1fae40822, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
