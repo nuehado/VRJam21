@@ -7,11 +7,7 @@ public class BrushSelector : MonoBehaviour
     [SerializeField] private GameObject[] brushTips;
     [SerializeField] private int indexOfThisTip;
 
-    private void Start()
-    {
-    }
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter()
     {
         for(int i = 0; i < brushTips.Length; i++)
         {

@@ -133,18 +133,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902498097695319789}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.00003338652, y: 0.10462699, z: -0.044188835, w: 0.9935294}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00000047683716}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 1902498098654231924}
   - {fileID: 1902498098816605092}
   m_Father: {fileID: 1902498098646797400}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.526, y: 12, z: -5.038}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.17, y: 3.39}
+  m_AnchoredPosition: {x: 17.34, y: 7.81}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1902498097695319776
@@ -907,6 +907,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae14d9152f8a8f419f58d53e555da4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  accidentThreshold1: 10
+  accidentThreshold2: 30
+  accidentThreshold3: 50
+  accidentThreshold4: 100
 --- !u!1 &1902498099000496143
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,18 +938,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902498099000496143}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: 0.0005671457, y: -0.10468052, z: 0.04938801, w: 0.9932787}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00000071525574}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 1902498098251349476}
   - {fileID: 1902498098246835951}
   m_Father: {fileID: 1902498098646797400}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.657, y: -12, z: 5.624}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.87, y: 3.37}
+  m_AnchoredPosition: {x: 0.58, y: 7.86}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1902498099000496130

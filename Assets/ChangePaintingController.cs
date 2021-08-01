@@ -23,12 +23,13 @@ public class ChangePaintingController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (changePaintingHandle.GetValue() < -0.9f)
+        
+        if (changePaintingHandle.GetValue() < -0.4f)
         {            
             StartCoroutine(ChangePainting(true));
         }
 
-        if (changePaintingHandle.GetValue() > 0.9f)
+        else if (changePaintingHandle.GetValue() > 0.4f)
         {
             StartCoroutine(ChangePainting(false));
         }
