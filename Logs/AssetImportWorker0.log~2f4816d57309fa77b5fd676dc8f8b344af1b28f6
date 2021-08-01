@@ -1,0 +1,528 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/VRguy/Documents/GitHub/VRJam21
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61031
+Successfully changed project path to: C:/Users/VRguy/Documents/GitHub/VRJam21
+C:/Users/VRguy/Documents/GitHub/VRJam21
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.26 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 2.17 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/VRguy/Documents/GitHub/VRJam21/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002068 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.68 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.358 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.44 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.588 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 2931 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 3.358700 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.781800 ms  DeleteObjects: 0.113900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3d Models/squirrel_rightHand_furryHand_Roughness.png
+  artifactKey: Guid(5921f16cefdba09419ec68d1fae40822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand_furryHand_Roughness.png using Guid(5921f16cefdba09419ec68d1fae40822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba25c737719b578dd80ee627556ec4e4') in 1.043655 seconds 
+  Import took 1.048830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3d Models/Palette_M_palette_Normal.png
+  artifactKey: Guid(fd9960aca9efe9a4da467e611d90a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Palette_M_palette_Normal.png using Guid(fd9960aca9efe9a4da467e611d90a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3de4c3cff042f0f50b69a859eafe5e') in 0.025202 seconds 
+  Import took 0.030114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/3d Models/squirrel_body_fur_BaseColor.png
+  artifactKey: Guid(ea8dd095004ce8c4783d5a413650ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_body_fur_BaseColor.png using Guid(ea8dd095004ce8c4783d5a413650ca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c1feb2ae874910c858107ff5b91e2d') in 0.012329 seconds 
+  Import took 0.279719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3d Models/squirrel_body_fur_Height.png
+  artifactKey: Guid(3fddb8ab08806f047a83e22a3239b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_body_fur_Height.png using Guid(3fddb8ab08806f047a83e22a3239b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff0278ebd55008fa74be0966d9f6465') in 0.012433 seconds 
+  Import took 0.037170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/3d Models/M_comb 1.mat
+  artifactKey: Guid(96e56a0915df22945a525464df9c2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/M_comb 1.mat using Guid(96e56a0915df22945a525464df9c2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0b247252b4884266d38e06e21320a8') in 0.058373 seconds 
+  Import took 0.063329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3d Models/M_comb.mat
+  artifactKey: Guid(b77c0d86fcc836b4e8442fb85f376c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/M_comb.mat using Guid(b77c0d86fcc836b4e8442fb85f376c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511361376d6c7e1e8a53940069ed8c38') in 0.013185 seconds 
+  Import took 0.046480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/3d Models/Palette.fbx
+  artifactKey: Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Palette.fbx using Guid(87ca3c30092b6b94bb7fb2db927af661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4241f2809ff7a88d2b82fa4e40c08d4') in 0.056305 seconds 
+  Import took 0.102508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/3d Models/PaintBrushTip_S.mat
+  artifactKey: Guid(8ed2088beb67dcb45b4ad0a290cd13e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/PaintBrushTip_S.mat using Guid(8ed2088beb67dcb45b4ad0a290cd13e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8ca18f778b1581823783b833ad5850') in 0.012689 seconds 
+  Import took 0.030824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/3d Models/PaintBrushTip_M.mat
+  artifactKey: Guid(471db19de59c8464eb8a258b700d2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/PaintBrushTip_M.mat using Guid(471db19de59c8464eb8a258b700d2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996acabce621e996808cc93f5267c30f') in 0.012612 seconds 
+  Import took 0.064318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3d Models/61XGbtInDiL_bump.jpg
+  artifactKey: Guid(35014fde30dc74a4a8005172cd3f5a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/61XGbtInDiL_bump.jpg using Guid(35014fde30dc74a4a8005172cd3f5a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c005138b988619148cf4e2e6d638b023') in 0.016623 seconds 
+  Import took 0.055001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/3d Models/squirrel_body.fbx
+  artifactKey: Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_body.fbx using Guid(ef9d17e088ae02b438d0874536cad736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb047059a83b75de1164de0abbe1f10') in 0.035526 seconds 
+  Import took 0.040699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3d Models/PaintBrushTip_F.mat
+  artifactKey: Guid(4b045aefc45fdc047a058a6dec3b1632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/PaintBrushTip_F.mat using Guid(4b045aefc45fdc047a058a6dec3b1632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ae8f85cc488597ac9c04c069d3de4a') in 0.012604 seconds 
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/3d Models/Palette_M_palette_AlbedoTransparency.png
+  artifactKey: Guid(c8c2443ea5f76d04c8c99d3b294588f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Palette_M_palette_AlbedoTransparency.png using Guid(c8c2443ea5f76d04c8c99d3b294588f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb3243a8173069d1fe81788f26bd620') in 0.013851 seconds 
+  Import took 0.019111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/3d Models/paintbrush_03.fbx
+  artifactKey: Guid(d8eb59fc2881eca46a8963866b9cbbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/paintbrush_03.fbx using Guid(d8eb59fc2881eca46a8963866b9cbbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9306d408bf42efdce9d5c9af2669c403') in 0.029471 seconds 
+  Import took 0.034864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3d Models/squirrel_rightHand 1.fbx
+  artifactKey: Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand 1.fbx using Guid(624487e8130eb5b408a56f4e20543dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e7be8ac5d51981b40be903981bfe84') in 0.025621 seconds 
+  Import took 0.030568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3d Models/squirrel_rightHand_furryHand_Height.png
+  artifactKey: Guid(8fd6eceea6c288a43be328ec454da0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand_furryHand_Height.png using Guid(8fd6eceea6c288a43be328ec454da0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e531806583c5f863f6df7cbe19875e78') in 0.013258 seconds 
+  Import took 0.037862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3d Models/61XGbtInDiL.jpg
+  artifactKey: Guid(ab565e17e73108d42b32b0baad66b819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/61XGbtInDiL.jpg using Guid(ab565e17e73108d42b32b0baad66b819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f06d5ba33bbb77ab0ce0669ef269de1') in 0.013807 seconds 
+  Import took 0.047796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/3d Models/squirrel_rightHand_furryHand_BaseColor.png
+  artifactKey: Guid(08548c27ef8fbef4bb8dd49e258af094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand_furryHand_BaseColor.png using Guid(08548c27ef8fbef4bb8dd49e258af094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeb49a3e9ea6d306aebcc5c5ab632dc') in 0.012906 seconds 
+  Import took 0.017803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/3d Models/squirrel_rightHand.fbx
+  artifactKey: Guid(071da996cf788f245970f1c0728701bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_rightHand.fbx using Guid(071da996cf788f245970f1c0728701bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf4ae8e87c2819426a307e932dd1b1b') in 0.024687 seconds 
+  Import took 0.029596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/3d Models/lambert1.mat
+  artifactKey: Guid(8074497e911e4c14e804d1829602866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/lambert1.mat using Guid(8074497e911e4c14e804d1829602866a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3848182fabd5c9be31fcbbc06c0179') in 0.014726 seconds 
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/3d Models/M_hand.mat
+  artifactKey: Guid(20dcd6c1d1923664fa5ce0cc0f8feeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/M_hand.mat using Guid(20dcd6c1d1923664fa5ce0cc0f8feeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed23e570a03ba41235e3393c1a4e3d6') in 0.014810 seconds 
+  Import took 0.021160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/3d Models/AfroWithCombs.fbx
+  artifactKey: Guid(9646fc042f09470488fea921309efe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/AfroWithCombs.fbx using Guid(9646fc042f09470488fea921309efe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0391871597c9b58a1fd9b5f30ebcbb7f') in 0.036676 seconds 
+  Import took 0.041764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/3d Models/squirrel_body_textured.fbx
+  artifactKey: Guid(bd6f049e65817b340a76bccf691081ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/squirrel_body_textured.fbx using Guid(bd6f049e65817b340a76bccf691081ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee151accbe6c5c90d8a5ea384ae3e329') in 0.036157 seconds 
+  Import took 0.103147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3d Models/M_hair.mat
+  artifactKey: Guid(16d44469811be4b42ab6f4cef0009d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/M_hair.mat using Guid(16d44469811be4b42ab6f4cef0009d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7279c1a5d1772e586228390a6e37fa6d') in 0.027701 seconds 
+  Import took 0.032853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/3d Models/M_hair.mat
+  artifactKey: Guid(16d44469811be4b42ab6f4cef0009d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/M_hair.mat using Guid(16d44469811be4b42ab6f4cef0009d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7279c1a5d1772e586228390a6e37fa6d') in 0.010592 seconds 
+  Import took 0.015718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.051014 seconds.
+  path: Assets/3d Models/SUNDAY
+  artifactKey: Guid(cd81555cc8722df4e98316fc5a9e710f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/SUNDAY using Guid(cd81555cc8722df4e98316fc5a9e710f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628ba12c220868999130a8ec99267cd0') in 0.008105 seconds 
+  Import took 0.021160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.206920 seconds.
+  path: Assets/3d Models/SUNDAY/Easel.fbx
+  artifactKey: Guid(4f3abb00690163549b9f31d40455c2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/SUNDAY/Easel.fbx using Guid(4f3abb00690163549b9f31d40455c2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b19ce7df1a5b9e22938ae3b5bc9b65') in 0.028959 seconds 
+  Import took 0.044101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3d Models/SUNDAY/RobBossAvatar.fbx
+  artifactKey: Guid(f5a55e6601ef70742b356ab09acee25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/SUNDAY/RobBossAvatar.fbx using Guid(f5a55e6601ef70742b356ab09acee25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7856a7e8fdd957970631bf2b5c5129') in 0.063769 seconds 
+  Import took 0.068688 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 2857 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3479.
+Total: 3.000200 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.523700 ms  DeleteObjects: 0.035500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 2857 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 155.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3482.
+Total: 3.436100 ms (FindLiveObjects: 0.389900 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.929700 ms  DeleteObjects: 0.034400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2533.544866 seconds.
+  path: Assets/Prefabs/Brush Selector (1).prefab
+  artifactKey: Guid(5010252e4b91df747b1ba5dfcc81f84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brush Selector (1).prefab using Guid(5010252e4b91df747b1ba5dfcc81f84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee166b0b5a513b1982a757b06995174') in 0.110508 seconds 
+  Import took 0.117780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1232.253451 seconds.
+  path: Assets/3d Models/RobBossAvatar(1).fbx
+  artifactKey: Guid(5728472091bb0e341857b23ad453ff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/RobBossAvatar(1).fbx using Guid(5728472091bb0e341857b23ad453ff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1111a1b877ccf77f6d89cc5bf1c6f09d') in 3.612765 seconds 
+  Import took 3.650761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.127088 seconds.
+  path: Assets/3d Models/Final Rob Boss Model
+  artifactKey: Guid(971640739b019f04eb8bc477c373f187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model using Guid(971640739b019f04eb8bc477c373f187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad0ffd2e055fd17caa96ebdc5fef2dd') in 0.045871 seconds 
+  Import took 0.085002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.230302 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/RobBossAvatar(1).fbx
+  artifactKey: Guid(5728472091bb0e341857b23ad453ff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/RobBossAvatar(1).fbx using Guid(5728472091bb0e341857b23ad453ff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d56760a5d6444cc8cb9e9cffb5734d2') in 2.154023 seconds 
+  Import took 2.187450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.806071 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert2.mat
+  artifactKey: Guid(764a3fdd5897eae4ba86e205e6200443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert2.mat using Guid(764a3fdd5897eae4ba86e205e6200443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c873914cf3b56e6b17cf866027d66874') in 0.605456 seconds 
+  Import took 0.614990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_beltBuckle.mat
+  artifactKey: Guid(9fe64bd3d7305554abc8b4d8db1c4469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_beltBuckle.mat using Guid(9fe64bd3d7305554abc8b4d8db1c4469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37305c83183960d9291cd97d7f30d8d5') in 0.296508 seconds 
+  Import took 0.308833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009284 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Eye.mat
+  artifactKey: Guid(559b6832fffbf5541b5544da35314c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Eye.mat using Guid(559b6832fffbf5541b5544da35314c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033c95171ad0e607afe85553e790ed62') in 0.439104 seconds 
+  Import took 0.476539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001456 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert2.mat
+  artifactKey: Guid(764a3fdd5897eae4ba86e205e6200443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert2.mat using Guid(764a3fdd5897eae4ba86e205e6200443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c873914cf3b56e6b17cf866027d66874') in 0.343400 seconds 
+  Import took 0.352793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert4.mat
+  artifactKey: Guid(950180ad5c2c01940b04ffe9be2b3e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert4.mat using Guid(950180ad5c2c01940b04ffe9be2b3e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b03cebcc154ee710ec2a0f226ec59') in 0.184713 seconds 
+  Import took 0.216169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Beard.mat
+  artifactKey: Guid(38bfae7fd5bc6e74fb185643d5ea5758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Beard.mat using Guid(38bfae7fd5bc6e74fb185643d5ea5758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c24c9c1c8b05391f100d4247247a53') in 0.220236 seconds 
+  Import took 0.322240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert4.mat
+  artifactKey: Guid(950180ad5c2c01940b04ffe9be2b3e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/lambert4.mat using Guid(950180ad5c2c01940b04ffe9be2b3e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b03cebcc154ee710ec2a0f226ec59') in 0.414047 seconds 
+  Import took 0.423855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Beard.mat
+  artifactKey: Guid(38bfae7fd5bc6e74fb185643d5ea5758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Beard.mat using Guid(38bfae7fd5bc6e74fb185643d5ea5758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c24c9c1c8b05391f100d4247247a53') in 0.327596 seconds 
+  Import took 0.339628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040494 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_shoes.mat
+  artifactKey: Guid(690a7dda5c67a614eaf28f176f816719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_shoes.mat using Guid(690a7dda5c67a614eaf28f176f816719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281a74802746efe25f1d296ce2b481e0') in 0.312650 seconds 
+  Import took 0.389263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025690 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_pants.mat
+  artifactKey: Guid(2cce6e6e0df35094fac2063878221d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_pants.mat using Guid(2cce6e6e0df35094fac2063878221d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb70ad9116a0817e81c31aa805038b5') in 0.155907 seconds 
+  Import took 0.177797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_belt.mat
+  artifactKey: Guid(3fb8e9b985b85d94fa04387b3e882d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_belt.mat using Guid(3fb8e9b985b85d94fa04387b3e882d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a59fbe56d36fab4e13c128dbf6aec40') in 0.326557 seconds 
+  Import took 0.336483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Pupil.mat
+  artifactKey: Guid(cd65fd7c389840644ad0eb024ed21848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_Pupil.mat using Guid(cd65fd7c389840644ad0eb024ed21848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0905f96d4dfe2321190b070088c661f9') in 0.379293 seconds 
+  Import took 0.450722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018249 seconds.
+  path: Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_belt.mat
+  artifactKey: Guid(3fb8e9b985b85d94fa04387b3e882d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d Models/Final Rob Boss Model/Extracted Materials/M_belt.mat using Guid(3fb8e9b985b85d94fa04387b3e882d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a59fbe56d36fab4e13c128dbf6aec40') in 0.229654 seconds 
+  Import took 0.239192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 617.162139 seconds.
+  path: Assets/Prefabs/Final Easles
+  artifactKey: Guid(fc54dd0a147093b4388bd3f952e0afa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Final Easles using Guid(fc54dd0a147093b4388bd3f952e0afa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612e9140bac6a4f346096911d53db6a6') in 0.037419 seconds 
+  Import took 0.049737 seconds .
+
