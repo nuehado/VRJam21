@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/3rd Party Assets/AutoHand/Packages (Setup)/XR.unitypackage.meta
 guid: 6c8af3f87ccef2d448129f8c50cf4aaa
+=======
+guid: 928105f7ee1c603498f5b1083cef65b7
+folderAsset: yes
+>>>>>>> Audio2:Assets/Sound/Dialogue.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
