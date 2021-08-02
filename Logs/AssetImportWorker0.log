@@ -1,0 +1,524 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/VRguy/Documents/GitHub/VRJam21
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50273
+Successfully changed project path to: C:/Users/VRguy/Documents/GitHub/VRJam21
+C:/Users/VRguy/Documents/GitHub/VRJam21
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 109.70 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 2.25 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/VRguy/Documents/GitHub/VRJam21/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002317 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.43 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.196 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015033 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.54 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.747 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 2932 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.8 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 3.177200 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.650700 ms  DeleteObjects: 0.126000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/LoadMainScene.cs
+  artifactKey: Guid(a1bf7063f30473d4c838ba9c52fbd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoadMainScene.cs using Guid(a1bf7063f30473d4c838ba9c52fbd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13a77f9644a7a750bf61224d7c22886') in 0.130452 seconds 
+  Import took 0.135950 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.421 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 2.981900 ms (FindLiveObjects: 0.377400 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.495800 ms  DeleteObjects: 0.024600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.610774 seconds.
+  path: Assets/LoadMainScene.cs
+  artifactKey: Guid(a1bf7063f30473d4c838ba9c52fbd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoadMainScene.cs using Guid(a1bf7063f30473d4c838ba9c52fbd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd279eda0ef348e5f515523a2a00bef3') in 0.007949 seconds 
+  Import took 0.014608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103507 seconds.
+  path: Assets/LoadMainScene.cs
+  artifactKey: Guid(a1bf7063f30473d4c838ba9c52fbd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoadMainScene.cs using Guid(a1bf7063f30473d4c838ba9c52fbd925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd279eda0ef348e5f515523a2a00bef3') in 0.003395 seconds 
+  Import took 0.009405 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.388 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 3.161000 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.710100 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.324398 seconds.
+  path: Assets/Scenes/sandbox 05.unity
+  artifactKey: Guid(d2405d3e0d5fa4440a9b84dd9e6c4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/sandbox 05.unity using Guid(d2405d3e0d5fa4440a9b84dd9e6c4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59191ec805347b942f4fd2fde4e35119') in 0.036154 seconds 
+  Import took 0.042282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.919982 seconds.
+  path: Assets/Scenes/LoadScene.unity
+  artifactKey: Guid(3e185a44122229b4ba8e47f2af6243be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadScene.unity using Guid(3e185a44122229b4ba8e47f2af6243be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2c57483bb913ba5e3d86d3845147f3') in 0.008187 seconds 
+  Import took 0.013403 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\VRguy\Documents\GitHub\VRJam21\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3441.
+Total: 2.997600 ms (FindLiveObjects: 0.384000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.499700 ms  DeleteObjects: 0.031400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 276.769674 seconds.
+  path: Assets/RobBossTitleScreen 1.png
+  artifactKey: Guid(6a87a51fe41c199418e3fdd6ee3f0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobBossTitleScreen 1.png using Guid(6a87a51fe41c199418e3fdd6ee3f0456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b646f3a11ab1c28e4aefd11789001ee') in 0.109763 seconds 
+  Import took 0.115787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.650433 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Noise.png
+  artifactKey: Guid(d9b0af70ee832ef489825cb4b9fb0f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Noise.png using Guid(d9b0af70ee832ef489825cb4b9fb0f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cacab436090c66fe8773d420746b89') in 0.166590 seconds 
+  Import took 0.171980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Target_MOS.png
+  artifactKey: Guid(c8c98c6e095967e40aec654c16ea0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Target_MOS.png using Guid(c8c98c6e095967e40aec654c16ea0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f64c298e7dad0c00f10302e49f39f1') in 0.096713 seconds 
+  Import took 0.101309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Target_Albedo.png
+  artifactKey: Guid(9cc24ef4e9009f249bc9305f1899390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Target_Albedo.png using Guid(9cc24ef4e9009f249bc9305f1899390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f358dfb6495306978171b63856ab880') in 0.124416 seconds 
+  Import took 0.129234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Noise.png
+  artifactKey: Guid(d9b0af70ee832ef489825cb4b9fb0f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Noise.png using Guid(d9b0af70ee832ef489825cb4b9fb0f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cacab436090c66fe8773d420746b89') in 0.012026 seconds 
+  Import took 0.016821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Target_Albedo.png
+  artifactKey: Guid(9cc24ef4e9009f249bc9305f1899390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Target_Albedo.png using Guid(9cc24ef4e9009f249bc9305f1899390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f358dfb6495306978171b63856ab880') in 0.013075 seconds 
+  Import took 0.018239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.947062 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Yellow.mat
+  artifactKey: Guid(eb058a589dc9c5d40b3039a0575f30b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Yellow.mat using Guid(eb058a589dc9c5d40b3039a0575f30b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9fa837d813d6d358bc07814cb8a8d6') in 0.110265 seconds 
+  Import took 0.115695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Magenta.mat
+  artifactKey: Guid(6d4ff523ba921c941800acaefaf269e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Magenta.mat using Guid(6d4ff523ba921c941800acaefaf269e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c68608e75c6b8b99e4780ac1a5b6046') in 0.065116 seconds 
+  Import took 0.069679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Green.mat
+  artifactKey: Guid(075eee4074767dc468d1f38c63aca3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Green.mat using Guid(075eee4074767dc468d1f38c63aca3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61b11ecd6e71015ee0b78ff270d23c6') in 0.062254 seconds 
+  Import took 0.066975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Red.mat
+  artifactKey: Guid(2e1d9309bededbe49bf8702e57818744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Red.mat using Guid(2e1d9309bededbe49bf8702e57818744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196d8de3714f5d83f522375b7e4b8fb0') in 0.058798 seconds 
+  Import took 0.063426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Glass_Albedo.png
+  artifactKey: Guid(33a0b40c8b7ade748823369af71c40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Glass_Albedo.png using Guid(33a0b40c8b7ade748823369af71c40ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee47583090e617efc9eb5297cc7fc87') in 0.052825 seconds 
+  Import took 0.057873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Graffiti.mat
+  artifactKey: Guid(6b713f1918e29fd46a545eb6701d780b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Graffiti.mat using Guid(6b713f1918e29fd46a545eb6701d780b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a342dd41e46591259dd2dd7e42302711') in 0.121889 seconds 
+  Import took 0.126603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Fireball.mat
+  artifactKey: Guid(de3d5cade43044f438e8259ed1684948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Fireball.mat using Guid(de3d5cade43044f438e8259ed1684948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50d721d0ab37c9553a83f787ae9c816') in 0.114262 seconds 
+  Import took 0.119016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Cyan.mat
+  artifactKey: Guid(83dfd8df11e0e72469e90906d3dae3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Cyan.mat using Guid(83dfd8df11e0e72469e90906d3dae3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b80a3a9642382a6514f93822036025') in 0.071930 seconds 
+  Import took 0.076601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Graffiti_Wall.mat
+  artifactKey: Guid(acc0cbe16d8918d4da6b770b9be7ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Graffiti_Wall.mat using Guid(acc0cbe16d8918d4da6b770b9be7ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c0c60615afbf9c002ea0df975909e1') in 0.104963 seconds 
+  Import took 0.109529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Blue.mat
+  artifactKey: Guid(7a11d345e9ab09545889c2ca8c291bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Blue.mat using Guid(7a11d345e9ab09545889c2ca8c291bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272ed5343aaf51e00d98a884c84f42b4') in 0.047968 seconds 
+  Import took 0.052809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Graffiti_Outline.mat
+  artifactKey: Guid(8151b3360981b204d98ada949a2fdd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Graffiti_Outline.mat using Guid(8151b3360981b204d98ada949a2fdd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67ef2047c86152689f9bcba7850fe09') in 0.090431 seconds 
+  Import took 0.095074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Laser.mat
+  artifactKey: Guid(6032659c47b967145bba0c6b4859baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Laser.mat using Guid(6032659c47b967145bba0c6b4859baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd2237fd32eae4d53795d10a6b25312') in 0.032845 seconds 
+  Import took 0.037518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Decal.mat
+  artifactKey: Guid(4e9a831b32cbe484eb65d5706f8d1d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Decal.mat using Guid(4e9a831b32cbe484eb65d5706f8d1d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7af9cfea94aebfda0244a13f2169de') in 0.051884 seconds 
+  Import took 0.056507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Bricks.mat
+  artifactKey: Guid(044765d64a462c243a2c6ee9c9c7a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Bricks.mat using Guid(044765d64a462c243a2c6ee9c9c7a1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08050b3f50775f3933a7de4bdde63d60') in 0.199187 seconds 
+  Import took 0.203887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Bricks (Second UV).mat
+  artifactKey: Guid(e7537bb5e73b0fa45b07b2570399a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Bricks (Second UV).mat using Guid(e7537bb5e73b0fa45b07b2570399a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27606ae5b50488606dcab96241621af') in 0.022409 seconds 
+  Import took 0.027144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Grid.mat
+  artifactKey: Guid(86d86b36688b766419f8d9d0610bc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Grid.mat using Guid(86d86b36688b766419f8d9d0610bc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb50d13a2931fb2148a9fd6593b3f209') in 0.031384 seconds 
+  Import took 0.036362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Basic Chrome.mat
+  artifactKey: Guid(2ad12366f6a114944985854c28de7c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Basic Chrome.mat using Guid(2ad12366f6a114944985854c28de7c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a78e1d6dbd2cc7118760673abecf7c') in 0.055880 seconds 
+  Import took 0.060535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Grey.mat
+  artifactKey: Guid(8265b83022dd2ad4da4f9337ea18a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Grey.mat using Guid(8265b83022dd2ad4da4f9337ea18a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08e4e0ff2f1c3100a7c367a4cbbfb13') in 0.045891 seconds 
+  Import took 0.050989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Glass.mat
+  artifactKey: Guid(aca62d90945f07a49b56f3b6cb3ab15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Glass.mat using Guid(aca62d90945f07a49b56f3b6cb3ab15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b2e0b26ada53d349c81758ecfef440') in 0.257835 seconds 
+  Import took 0.262487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Black.mat
+  artifactKey: Guid(5eaedb06b6f7e98499acc82075f5951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Materials/Gloss Black.mat using Guid(5eaedb06b6f7e98499acc82075f5951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078dddfdfb9329046516d80b192792e2') in 0.041165 seconds 
+  Import took 0.045751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.845194 seconds.
+  path: Assets/Fonts/Too Small/Devonshire/OFL.txt
+  artifactKey: Guid(f34ab41010d6499448584a4ada56286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Too Small/Devonshire/OFL.txt using Guid(f34ab41010d6499448584a4ada56286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd4c3c2dfda721ea9c1ab02ce17daee') in 0.028113 seconds 
+  Import took 0.033531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000937 seconds.
+  path: Assets/Fonts/Too Small/Devonshire/OFL.txt
+  artifactKey: Guid(f34ab41010d6499448584a4ada56286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Too Small/Devonshire/OFL.txt using Guid(f34ab41010d6499448584a4ada56286b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd4c3c2dfda721ea9c1ab02ce17daee') in 0.003821 seconds 
+  Import took 0.008349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.173867 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f3fed9213a1ccefa6ae6581444a8f2') in 0.178127 seconds 
+  Import took 0.183516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740de3a55449ae29278bc26320479fcc') in 0.061775 seconds 
+  Import took 0.066859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eb62bdb1f6678920370052afa06ba7') in 0.014497 seconds 
+  Import took 0.019433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Fonts/VarelaRound-Regular.ttf
+  artifactKey: Guid(ff571517d53cf074b86d221e07573a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/PaintIn3D/InGame/Examples/Fonts/VarelaRound-Regular.ttf using Guid(ff571517d53cf074b86d221e07573a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d3a6c8536175f6eb2527e58ad698ab') in 0.039144 seconds 
+  Import took 0.044215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b1f05ff8f6fbfc3beeb8a5094ddca3') in 0.050301 seconds 
+  Import took 0.067278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec1587b7129bde4b287cc77833a66ca') in 0.015878 seconds 
+  Import took 0.020530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287978acc725e2e6afb4e562d33d9065') in 0.071597 seconds 
+  Import took 0.076713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007937 seconds.
+  path: Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rd Party Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287978acc725e2e6afb4e562d33d9065') in 0.010439 seconds 
+  Import took 0.015543 seconds .
+
