@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class AccidentCounter : MonoBehaviour
 {
-    [SerializeField] float accidentThreshold1 = 10;
-    [SerializeField] float accidentThreshold2 = 30;
-    [SerializeField] float accidentThreshold3 = 50;
-    [SerializeField] float accidentThreshold4 = 100;
+    [SerializeField] float accidentThreshold1 = 3;
+    [SerializeField] float accidentThreshold2 = 10;
+    [SerializeField] float accidentThreshold3 = 20;
+    [SerializeField] float accidentThreshold4 = 40;
 
     public static event Action AccidentThreshold1Reached;
     public static event Action AccidentThreshold2Reached;
@@ -48,6 +48,10 @@ public class AccidentCounter : MonoBehaviour
         else if (accidentCount == accidentThreshold4)
         {
             Debug.Log(accidentThreshold4 + " accidents");
+            AccidentThreshold4Reached?.Invoke();
+        }
+        else if (accidentCount%10 == 0)
+        {
             AccidentThreshold4Reached?.Invoke();
         }
     }
